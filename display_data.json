@@ -1,0 +1,20 @@
+[
+    {
+      "Clothes_ID": 1,
+      "Type": "t-shirts",
+      "Image_URL": "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/27842200_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1",
+      "Price": 19.99
+    },
+    {
+      "Clothes_ID": 2,
+      "Type": "t-shirts",
+      "Image_URL": "https://slimages.macysassets.com/is/image/MCY/products/0/optimized/23643110_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1",
+      "Price": 45.0
+    },
+    {
+      "Clothes_ID": 3,
+      "Type": "blouses",
+      "Image_URL": "https://slimages.macysassets.com/is/image/MCY/products/8/optimized/27913758_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1",
+      "Price": 79.0
+    }
+  ]

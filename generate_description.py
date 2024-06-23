@@ -181,7 +181,7 @@ for idx, link in enumerate(all_links):
                         product_info = json.loads(get_gpt_response(image_filename))
                         finished = True
                     except:
-                        time.sleep(6)
+                        time.sleep(20)
                 
                 time.sleep(1.5)
         
@@ -190,9 +190,11 @@ for idx, link in enumerate(all_links):
                 product_info["Image"] = image_filename
                 product_info["Image_URL"] = image_url
                 product_info["Price"] = price
+                product_info["Listing_Link"] = link
+
 
                 print(product_info)
                 product_data.append(product_info)
 
-with open("data.json", 'w') as f:
+with open("data_new.json", 'w') as f:
     json.dump(product_data, f)
